@@ -1,0 +1,69 @@
+CREATE TABLE nodes (id VARCHAR(15) PRIMARY KEY,
+	x FLOAT,
+	y FLOAT
+);
+
+CREATE TABLE links (linkID VARCHAR(15) PRIMARY KEY,
+	fromID VARCHAR(15) REFERENCES nodes(id),
+	toID VARCHAR(15) REFERENCES nodes(id),
+	length REAL,
+	capacity REAL,
+	freespeed REAL,
+	permlanes REAL,
+	modes VARCHAR(10)
+);
+
+CREATE TABLE events (time INTEGER,
+	type VARCHAR(25),
+	linkID VARCHAR(15) REFERENCES links(linkID) ON DELETE SET NULL,
+	vehicle VARCHAR(15),
+	actType VARCHAR(40),
+	person VARCHAR(15),
+	distance REAL,
+	mode VARCHAR(20),
+	amount REAL,
+	purpose VARCHAR(40),
+	transPartner VARCHAR(20),
+	dvrpVehicle VARCHAR(20),
+	taskType VARCHAR(20),
+	taskIndex VARCHAR(20),
+	dvrpMode VARCHAR(20),
+	legMode VARCHAR(15),
+	networkMode VARCHAR(20),
+	relPos REAL,
+	request VARCHAR(20),
+	facility VARCHAR(10),
+	delay REAL,
+	driverID VARCHAR(20),
+	vehicleID VARCHAR(20),
+	transitLineID VARCHAR(10),
+	transitRouteID VARCHAR(10),
+	departureID VARCHAR(20),
+	agent VARCHAR(10),
+	atStop VARCHAR(10),
+	destinationStop VARCHAR(20),
+	x REAL,
+	y REAL
+);
+
+
+CREATE INDEX idx_person ON events(person);
+
+CREATE INDEX idx_link ON events(linkid);
+
+CREATE INDEX idx_time ON events(time);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

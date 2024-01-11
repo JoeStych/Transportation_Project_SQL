@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events version="1.0">
+	<event time="20.0" type="actend" person="p_9031" link="7742288_0" actType="Home"  />
+	<event time="20.0" type="departure" person="p_9031" link="7742288_0" legMode="car"  />
+	<event time="20.0" type="PersonEntersVehicle" person="p_9031" vehicle="p_9031"  />
+	<event time="20.0" type="vehicle enters traffic" person="p_9031" link="7742288_0" vehicle="p_9031" networkMode="car" relativePosition="1.0"  />
+	<event time="21.0" type="left link" link="7742288_0" vehicle="p_9031"  />
+	<event time="21.0" type="entered link" link="7742288_0_r" vehicle="p_9031"  />
+	<event time="31.0" type="left link" link="7742288_0_r" vehicle="p_9031"  />
+	<event time="31.0" type="entered link" link="7765210_3_r" vehicle="p_9031"  />
+	<event time="60.0" type="actend" person="p_1217" link="7736644_2" actType="Uber_Source_Act"  />
+	<event time="60.0" type="departure" person="p_1217" link="7736644_2" legMode="walk"  />
+	<event time="64.0" type="travelled" person="p_1217" distance="4.11365048914124" mode="walk"  />
+	<event time="64.0" type="arrival" person="p_1217" link="7736644_2" legMode="walk"  />
+	<event time="64.0" type="actstart" person="p_1217" link="7736644_2" x="522555.1960580131" y="3712298.0496655023" actType="taxi interaction"  />
+	<event time="64.0" type="actend" person="p_1217" link="7736644_2" actType="taxi interaction"  />
+	<event time="64.0" type="departure" person="p_1217" link="7736644_2" legMode="taxi"  />
+	<event time="64.0" type="personMoney" person="p_1217" amount="-0.0" purpose="taxiFare" transactionPartner="taxi"  />
+	<event time="107.0" type="left link" link="7765210_3_r" vehicle="p_9031"  />
+	<event time="107.0" type="entered link" link="7765210_2_r" vehicle="p_9031"  />
+	<event time="108.0" type="actend" person="p_1572" link="7745440_2" actType="Uber_Source_Act"  />
+	<event time="108.0" type="departure" person="p_1572" link="7745440_2" legMode="walk"  />
+	<event time="120.0" type="actend" person="p_350" link="165419554_0" actType="Uber_Source_Act"  />
+	<event time="120.0" type="departure" person="p_350" link="165419554_0" legMode="walk"  />
+	<event time="120.0" type="actend" person="p_2334" link="123281668_0" actType="Uber_Source_Act"  />
+	<event time="120.0" type="departure" person="p_2334" link="123281668_0" legMode="walk"  />
+	<event time="130.0" type="left link" link="7765210_2_r" vehicle="p_9031"  />
+	<event time="130.0" type="entered link" link="659789883_0_r" vehicle="p_9031"  />
+	<event time="158.0" type="left link" link="659789883_0_r" vehicle="p_9031"  />
+	<event time="158.0" type="entered link" link="659789882_0_r" vehicle="p_9031"  />
+	<event time="163.0" type="left link" link="659789882_0_r" vehicle="p_9031"  />
+	<event time="163.0" type="entered link" link="7747751_1_r" vehicle="p_9031"  />
+	<event time="173.0" type="travelled" person="p_350" distance="44.49866173779519" mode="walk"  />
+	<event time="173.0" type="arrival" person="p_350" link="165419554_0" legMode="walk"  />
+	<event time="173.0" type="actstart" person="p_350" link="165419554_0" x="517872.32873638347" y="3709240.5612791786" actType="taxi interaction"  />
+	<event time="173.0" type="actend" person="p_350" link="165419554_0" actType="taxi interaction"  />
+	<event time="173.0" type="departure" person="p_350" link="165419554_0" legMode="taxi"  />
+	<event time="173.0" type="personMoney" person="p_350" amount="-0.0" purpose="taxiFare" transactionPartner="taxi"  />
+	<event time="180.0" type="actend" person="p_2101" link="7734197_0" actType="Uber_Source_Act"  />
+	<event time="180.0" type="departure" person="p_2101" link="7734197_0" legMode="walk"  />
+	<event time="180.0" type="actend" person="p_1148" link="354196529_1" actType="Uber_Source_Act"  />
+	<event time="180.0" type="departure" person="p_1148" link="354196529_1" legMode="walk"  />
+	<event time="187.0" type="travelled" person="p_2101" distance="6.496258448292108" mode="walk"  />
+	<event time="187.0" type="arrival" person="p_2101" link="7734197_0" legMode="walk"  />
+	<event time="187.0" type="actstart" person="p_2101" link="7734197_0" x="519398.76286261715" y="3707935.297193843" actType="taxi interaction"  />
+	<event time="187.0" type="actend" person="p_2101" link="7734197_0" actType="taxi interaction"  />
+	<event time="187.0" type="departure" person="p_2101" link="7734197_0" legMode="taxi"  />
+	<event time="187.0" type="personMoney" person="p_2101" amount="-0.0" purpose="taxiFare" transactionPartner="taxi"  />
+	<event time="193.0" type="left link" link="7747751_1_r" vehicle="p_9031"  />
+	<event time="193.0" type="entered link" link="7747751_0_r" vehicle="p_9031"  />
+	<event time="206.0" type="left link" link="7747751_0_r" vehicle="p_9031"  />
+	<event time="206.0" type="entered link" link="212735883_4_r" vehicle="p_9031"  />
+	<event time="240.0" type="actend" person="p_2685" link="246007691_6" actType="Home"  />
+	<event time="240.0" type="departure" person="p_2685" link="246007691_6" legMode="car"  />
+	<event time="240.0" type="PersonEntersVehicle" person="p_2685" vehicle="p_2685"  />
+	<event time="240.0" type="vehicle enters traffic" person="p_2685" link="246007691_6" vehicle="p_2685" networkMode="car" relativePosition="1.0"  />
+	<event time="241.0" type="left link" link="246007691_6" vehicle="p_2685"  />
+	<event time="241.0" type="entered link" link="246007691_7" vehicle="p_2685"  />
+	<event time="250.0" type="left link" link="246007691_7" vehicle="p_2685"  />
+	<event time="250.0" type="entered link" link="7750305_19_r" vehicle="p_2685"  />
+	<event time="262.0" type="left link" link="7750305_19_r" vehicle="p_2685"  />
+	<event time="262.0" type="entered link" link="7750305_18_r" vehicle="p_2685"  />
+	<event time="263.0" type="left link" link="212735883_4_r" vehicle="p_9031"  />
+	<event time="263.0" type="entered link" link="212735883_3_r" vehicle="p_9031"  />
+	<event time="269.0" type="left link" link="7750305_18_r" vehicle="p_2685"  />
+	<event time="269.0" type="entered link" link="7750305_17_r" vehicle="p_2685"  />
+	<event time="272.0" type="actend" person="taxi_64" link="396197589_0" actType="BeforeVrpSchedule"  />
+	<event time="272.0" type="dvrpTaskStarted" person="taxi_64" link="396197589_0" dvrpVehicle="taxi_64" taskType="STAY" taskIndex="0" dvrpMode="taxi"  />
+	<event time="272.0" type="actstart" person="taxi_64" link="396197589_0" actType="TaxiStay"  />
+	<event time="273.0" type="left link" link="7750305_17_r" vehicle="p_2685"  />
+	<event time="273.0" type="entered link" link="7750305_16_r" vehicle="p_2685"  />
+	<event time="273.0" type="actend" person="taxi_64" link="396197589_0" actType="TaxiStay"  />
+	<event time="273.0" type="dvrpTaskEnded" person="taxi_64" link="396197589_0" dvrpVehicle="taxi_64" taskType="STAY" taskIndex="0" dvrpMode="taxi"  />
+	<event time="273.0" type="dvrpTaskStarted" person="taxi_64" link="396197589_0" dvrpVehicle="taxi_64" taskType="EMPTY_DRIVE" taskIndex="1" dvrpMode="taxi"  />
+	<event time="273.0" type="departure" person="taxi_64" link="396197589_0" legMode="car"  />
+	<event time="273.0" type="PersonEntersVehicle" person="taxi_64" vehicle="taxi_64"  />
+	<event time="274.0" type="vehicle enters traffic" person="taxi_64" link="396197589_0" vehicle="taxi_64" networkMode="car" relativePosition="1.0"  />
+	<event time="275.0" type="left link" link="396197589_0" vehicle="taxi_64"  />
+	<event time="275.0" type="entered link" link="396197589_0_r" vehicle="taxi_64"  />
+	<event time="276.0" type="left link" link="7750305_16_r" vehicle="p_2685"  />
+	<event time="276.0" type="entered link" link="7750305_15_r" vehicle="p_2685"  />
+	<event time="284.0" type="left link" link="7750305_15_r" vehicle="p_2685"  />
+	<event time="284.0" type="entered link" link="7750305_14_r" vehicle="p_2685"  />
+	<event time="285.0" type="left link" link="212735883_3_r" vehicle="p_9031"  />
+	<event time="285.0" type="entered link" link="212735883_2_r" vehicle="p_9031"  />
+	<event time="288.0" type="left link" link="7750305_14_r" vehicle="p_2685"  />
+	<event time="288.0" type="entered link" link="7750305_13_r" vehicle="p_2685"  />
+	<event time="290.0" type="left link" link="396197589_0_r" vehicle="taxi_64"  />
+	<event time="290.0" type="entered link" link="8602228_0" vehicle="taxi_64"  />
+	<event time="300.0" type="actend" person="p_1727" link="7773604_2" actType="Uber_Source_Act"  />
+	<event time="300.0" type="departure" person="p_1727" link="7773604_2" legMode="walk"  />
+	<event time="305.0" type="left link" link="212735883_2_r" vehicle="p_9031"  />
+	<event time="305.0" type="entered link" link="212735883_1_r" vehicle="p_9031"  />
+	<event time="307.0" type="travelled" person="p_1572" distance="166.1176894773533" mode="walk"  />
+	<event time="307.0" type="arrival" person="p_1572" link="7745440_2" legMode="walk"  />
+	<event time="307.0" type="actstart" person="p_1572" link="7745440_2" x="519606.2062467341" y="3694431.516427005" actType="taxi interaction"  />
+	<event time="307.0" type="actend" person="p_1572" link="7745440_2" actType="taxi interaction"  />
+	<event time="307.0" type="departure" person="p_1572" link="7745440_2" legMode="taxi"  />
+	<event time="307.0" type="personMoney" person="p_1572" amount="-0.0" purpose="taxiFare" transactionPartner="taxi"  />
+	<event time="309.0" type="travelled" person="p_1148" distance="107.98006659878675" mode="walk"  />
+	<event time="309.0" type="arrival" person="p_1148" link="354196529_1" legMode="walk"  />
+	<event time="309.0" type="actstart" person="p_1148" link="354196529_1" x="510871.14061078726" y="3698814.0586996684" actType="taxi interaction"  />
+	<event time="309.0" type="actend" person="p_1148" link="354196529_1" actType="taxi interaction"  />
+	<event time="309.0" type="departure" person="p_1148" link="354196529_1" legMode="taxi"  />
+	<event time="309.0" type="personMoney" person="p_1148" amount="-0.0" purpose="taxiFare" transactionPartner="taxi"  />
+	<event time="312.0" type="left link" link="7750305_13_r" vehicle="p_2685"  />
+	<event time="312.0" type="entered link" link="48689137_11" vehicle="p_2685"  />
+	<event time="317.0" type="left link" link="8602228_0" vehicle="taxi_64"  />
+	<event time="317.0" type="entered link" link="8602228_1" vehicle="taxi_64"  />
+	<event time="319.0" type="left link" link="212735883_1_r" vehicle="p_9031"  />
+	<event time="319.0" type="entered link" link="212735883_0_r" vehicle="p_9031"  />
+	<event time="322.0" type="left link" link="212735883_0_r" vehicle="p_9031"  />
+	<event time="322.0" type="entered link" link="212735885_0_r" vehicle="p_9031"  />
+	<event time="323.0" type="left link" link="8602228_1" vehicle="taxi_64"  />
+	<event time="323.0" type="entered link" link="8602228_2" vehicle="taxi_64"  />
+	<event time="324.0" type="left link" link="48689137_11" vehicle="p_2685"  />
+	<event time="324.0" type="entered link" link="259970312_1_r" vehicle="p_2685"  />
+	<event time="325.0" type="left link" link="212735885_0_r" vehicle="p_9031"  />
+	<event time="325.0" type="entered link" link="659787490_0_r" vehicle="p_9031"  />
+	<event time="325.0" type="left link" link="8602228_2" vehicle="taxi_64"  />
+	<event time="325.0" type="entered link" link="8602228_3" vehicle="taxi_64"  />
+	<event time="326.0" type="left link" link="659787490_0_r" vehicle="p_9031"  />
+	<event time="326.0" type="entered link" link="659787492_1_r" vehicle="p_9031"  />
+	<event time="333.0" type="left link" link="259970312_1_r" vehicle="p_2685"  />
+	<event time="333.0" type="entered link" link="259970312_0_r" vehicle="p_2685"  />
+	<event time="339.0" type="left link" link="8602228_3" vehicle="taxi_64"  />
+	<event time="339.0" type="entered link" link="8602228_4" vehicle="taxi_64"  />
+	<event time="340.0" type="travelled" person="p_2334" distance="183.84763468446286" mode="walk"  />
+	<event time="340.0" type="arrival" person="p_2334" link="123281668_0" legMode="walk"  />
+	<event time="340.0" type="actstart" person="p_2334" link="123281668_0" x="525288.5527875305" y="3700028.245624081" actType="taxi interaction"  />
+	<event time="340.0" type="actend" person="p_2334" link="123281668_0" actType="taxi interaction"  />
+	<event time="340.0" type="departure" person="p_2334" link="123281668_0" legMode="taxi"  />
+	<event time="340.0" type="personMoney" person="p_2334" amount="-0.0" purpose="taxiFare" transactionPartner="taxi"  />
+	<event time="342.0" type="left link" link="259970312_0_r" vehicle="p_2685"  />
+	<event time="342.0" type="entered link" link="107920516_6_r" vehicle="p_2685"  />
+	<event time="344.0" type="left link" link="8602228_4" vehicle="taxi_64"  />
+	<event time="344.0" type="entered link" link="8602228_5" vehicle="taxi_64"  />
+	<event time="345.0" type="left link" link="107920516_6_r" vehicle="p_2685"  />
+	<event time="345.0" type="entered link" link="107920516_5_r" vehicle="p_2685"  />
+	<event time="346.0" type="actend" person="p_8887" link="8595839_0" actType="Home"  />
+	<event time="346.0" type="departure" person="p_8887" link="8595839_0" legMode="car"  />
